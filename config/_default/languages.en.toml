@@ -1,0 +1,18 @@
+locale = "en"
+label = "English"
+weight = 1
+title = "Light Roasted Platform Engineering"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "A lukewarm blog about platform engineering."
+
+[params.author]
+  name = "Light Roasted Platform Engineering"
+  heroTitleLines = ["Light Roasted", "Platform Engineering"]
+  image = "img/coffee.png"
+  headlineIcon = "☕"
+  headline = "a lukewarm blog"

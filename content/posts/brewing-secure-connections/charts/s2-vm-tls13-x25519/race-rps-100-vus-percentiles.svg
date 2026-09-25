@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1342" viewBox="0 0 1800 1342" role="img" aria-labelledby="title desc">
+<metadata>{&quot;scenario&quot;: &quot;s2-vm&quot;, &quot;tls_version&quot;: &quot;1.3&quot;, &quot;tls_group&quot;: &quot;X25519&quot;, &quot;run_ids&quot;: {&quot;dotnet&quot;: &quot;20260923T083049Z-blog_tls_race-s2-vm-net&quot;, &quot;java&quot;: &quot;20260923T083847Z-blog_tls_race-s2-vm-java&quot;, &quot;go&quot;: &quot;20260923T084610Z-blog_tls_race-s2-vm-go&quot;, &quot;rust&quot;: &quot;20260923T085511Z-blog_tls_race-s2-vm-rust&quot;}, &quot;source_start&quot;: &quot;2026-09-20T00:00:00Z&quot;, &quot;source_stop&quot;: &quot;2026-09-23T14:54:35Z&quot;}</metadata>
+<style>
+  .theme-bg { fill: #ffffff; }
+  .theme-plot { fill: #f8fafc; }
+  .theme-text { fill: #111827; }
+  .theme-muted { fill: #64748b; }
+  .theme-grid { stroke: #e2e8f0; }
+  .theme-border { stroke: #cbd5e1; }
+  @media (prefers-color-scheme: dark) {
+    .theme-bg { fill: #1f2227; }
+    .theme-plot { fill: #202328; }
+    .theme-text { fill: #d8d9da; }
+    .theme-muted { fill: #a8abb2; }
+    .theme-grid { stroke: #34383f; }
+    .theme-border { stroke: #454a52; }
+  }
+</style>
+<title id="title">Fixed-work race · 100 VUs - request-rate percentiles</title>
+<desc id="desc">s2-vm · TLS 1.3 · X25519 · per Profile Run · populated 1-second request-rate windows · logarithmic value scale</desc>
+<rect class="theme-bg" width="1800" height="1342" rx="12" fill="#ffffff"/>
+<text class="theme-text" x="40.00" y="34.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="24" font-weight="700" text-anchor="start">Fixed-work race · 100 VUs - request-rate percentiles</text>
+<text class="theme-muted" x="40.00" y="61.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="400" text-anchor="start">s2-vm · TLS 1.3 · X25519 · per Profile Run · populated 1-second request-rate windows · logarithmic value scale</text>
+<rect x="40" y="82" width="18" height="18" rx="3" fill="#6d4aff"/>
+<text class="theme-text" x="67.00" y="96.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">.NET</text>
+<rect x="220" y="82" width="18" height="18" rx="3" fill="#e76f00"/>
+<text class="theme-text" x="247.00" y="96.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">Java</text>
+<rect x="400" y="82" width="18" height="18" rx="3" fill="#00add8"/>
+<text class="theme-text" x="427.00" y="96.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">golang</text>
+<rect x="580" y="82" width="18" height="18" rx="3" fill="#ef4444"/>
+<text class="theme-text" x="607.00" y="96.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">Rust</text>
+<text class="theme-muted" x="800.00" y="96.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">Within each stack: Profile Run 1 light · Run 2 normal · Run 3 dark</text>
+<text class="theme-muted" x="350.00" y="135.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">0.1</text>
+<text class="theme-muted" x="632.00" y="135.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">1</text>
+<text class="theme-muted" x="914.00" y="135.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">10</text>
+<text class="theme-muted" x="1196.00" y="135.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">100</text>
+<text class="theme-muted" x="1478.00" y="135.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">1k</text>
+<text class="theme-muted" x="1760.00" y="135.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">10k</text>
+<rect class="theme-plot theme-border" x="30" y="155" width="1740" height="1132" fill="#f8fafc" stroke="#cbd5e1"/>
+<line class="theme-grid" x1="350.00" y1="155" x2="350.00" y2="1287" stroke="#e2e8f0"/>
+<line class="theme-grid" x1="632.00" y1="155" x2="632.00" y2="1287" stroke="#e2e8f0"/>
+<line class="theme-grid" x1="914.00" y1="155" x2="914.00" y2="1287" stroke="#e2e8f0"/>
+<line class="theme-grid" x1="1196.00" y1="155" x2="1196.00" y2="1287" stroke="#e2e8f0"/>
+<line class="theme-grid" x1="1478.00" y1="155" x2="1478.00" y2="1287" stroke="#e2e8f0"/>
+<line class="theme-grid" x1="1760.00" y1="155" x2="1760.00" y2="1287" stroke="#e2e8f0"/>
+<text class="theme-text" x="45.00" y="178.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="15" font-weight="700" text-anchor="start">100 VUs</text>
+<line class="theme-border" x1="40" y1="191" x2="1760" y2="191" stroke="#cbd5e1"/>
+<text class="theme-text" x="45.00" y="209.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" text-anchor="start">P01</text>
+<text class="theme-muted" x="338.00" y="228.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 1</text>
+<rect x="350.00" y="216.00" width="1077.11" height="15" rx="3" fill="#8b7cf6"><title>100 VUs, P01, .NET, Profile Run 1: 660 Requests/s</title></rect>
+<text class="" x="888.56" y="228.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">660 req/s</text>
+<text class="theme-muted" x="338.00" y="248.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 2</text>
+<rect x="350.00" y="236.00" width="1176.43" height="15" rx="3" fill="#6d4aff"><title>100 VUs, P01, .NET, Profile Run 2: 1485 Requests/s</title></rect>
+<text class="" x="938.21" y="248.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1,485 req/s</text>
+<text class="theme-muted" x="338.00" y="268.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 3</text>
+<rect x="350.00" y="256.00" width="1237.04" height="15" rx="3" fill="#4c2cb3"><title>100 VUs, P01, .NET, Profile Run 3: 2436 Requests/s</title></rect>
+<text class="" x="968.52" y="268.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2,436 req/s</text>
+<text class="theme-muted" x="338.00" y="288.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 1</text>
+<rect x="350.00" y="276.00" width="1159.38" height="15" rx="3" fill="#ffb36b"><title>100 VUs, P01, Java, Profile Run 1: 1292 Requests/s</title></rect>
+<text class="" x="929.69" y="288.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1,292 req/s</text>
+<text class="theme-muted" x="338.00" y="308.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 2</text>
+<rect x="350.00" y="296.00" width="1086.40" height="15" rx="3" fill="#e76f00"><title>100 VUs, P01, Java, Profile Run 2: 712 Requests/s</title></rect>
+<text class="" x="893.20" y="308.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">712 req/s</text>
+<text class="theme-muted" x="338.00" y="328.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 3</text>
+<rect x="350.00" y="316.00" width="1174.26" height="15" rx="3" fill="#a94800"><title>100 VUs, P01, Java, Profile Run 3: 1459 Requests/s</title></rect>
+<text class="" x="937.13" y="328.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1,459 req/s</text>
+<text class="theme-muted" x="338.00" y="348.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 1</text>
+<rect x="350.00" y="336.00" width="834.45" height="15" rx="3" fill="#62d6ee"><title>100 VUs, P01, golang, Profile Run 1: 91 Requests/s</title></rect>
+<text class="" x="767.22" y="348.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">91 req/s</text>
+<text class="theme-muted" x="338.00" y="368.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 2</text>
+<rect x="350.00" y="356.00" width="834.45" height="15" rx="3" fill="#00add8"><title>100 VUs, P01, golang, Profile Run 2: 91 Requests/s</title></rect>
+<text class="" x="767.22" y="368.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">91 req/s</text>
+<text class="theme-muted" x="338.00" y="388.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 3</text>
+<rect x="350.00" y="376.00" width="909.54" height="15" rx="3" fill="#007d9c"><title>100 VUs, P01, golang, Profile Run 3: 168 Requests/s</title></rect>
+<text class="" x="804.77" y="388.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">168 req/s</text>
+<text class="theme-muted" x="338.00" y="408.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 1</text>
+<rect x="350.00" y="396.00" width="1055.67" height="15" rx="3" fill="#fca5a5"><title>100 VUs, P01, Rust, Profile Run 1: 554 Requests/s</title></rect>
+<text class="" x="877.83" y="408.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">554 req/s</text>
+<text class="theme-muted" x="338.00" y="428.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 2</text>
+<rect x="350.00" y="416.00" width="834.45" height="15" rx="3" fill="#ef4444"><title>100 VUs, P01, Rust, Profile Run 2: 91 Requests/s</title></rect>
+<text class="" x="767.22" y="428.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">91 req/s</text>
+<text class="theme-muted" x="338.00" y="448.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 3</text>
+<rect x="350.00" y="436.00" width="1158.71" height="15" rx="3" fill="#b91c1c"><title>100 VUs, P01, Rust, Profile Run 3: 1285 Requests/s</title></rect>
+<text class="" x="929.36" y="448.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1,285 req/s</text>
+<line class="theme-border" x1="40" y1="468" x2="1760" y2="468" stroke="#cbd5e1"/>
+<text class="theme-text" x="45.00" y="486.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" text-anchor="start">P50</text>
+<text class="theme-muted" x="338.00" y="505.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 1</text>
+<rect x="350.00" y="493.00" width="1238.64" height="15" rx="3" fill="#8b7cf6"><title>100 VUs, P50, .NET, Profile Run 1: 2468 Requests/s</title></rect>
+<text class="" x="969.32" y="505.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2,468 req/s</text>
+<text class="theme-muted" x="338.00" y="525.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 2</text>
+<rect x="350.00" y="513.00" width="1318.88" height="15" rx="3" fill="#6d4aff"><title>100 VUs, P50, .NET, Profile Run 2: 4752 Requests/s</title></rect>
+<text class="" x="1009.44" y="525.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,752 req/s</text>
+<text class="theme-muted" x="338.00" y="545.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 3</text>
+<rect x="350.00" y="533.00" width="1314.43" height="15" rx="3" fill="#4c2cb3"><title>100 VUs, P50, .NET, Profile Run 3: 4582.5 Requests/s</title></rect>
+<text class="" x="1007.22" y="545.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,582 req/s</text>
+<text class="theme-muted" x="338.00" y="565.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 1</text>
+<rect x="350.00" y="553.00" width="1270.99" height="15" rx="3" fill="#ffb36b"><title>100 VUs, P50, Java, Profile Run 1: 3214 Requests/s</title></rect>
+<text class="" x="985.49" y="565.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">3,214 req/s</text>
+<text class="theme-muted" x="338.00" y="585.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 2</text>
+<rect x="350.00" y="573.00" width="1256.09" height="15" rx="3" fill="#e76f00"><title>100 VUs, P50, Java, Profile Run 2: 2846 Requests/s</title></rect>
+<text class="" x="978.05" y="585.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2,846 req/s</text>
+<text class="theme-muted" x="338.00" y="605.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 3</text>
+<rect x="350.00" y="593.00" width="1262.51" height="15" rx="3" fill="#a94800"><title>100 VUs, P50, Java, Profile Run 3: 2999 Requests/s</title></rect>
+<text class="" x="981.25" y="605.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2,999 req/s</text>
+<text class="theme-muted" x="338.00" y="625.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 1</text>
+<rect x="350.00" y="613.00" width="1248.14" height="15" rx="3" fill="#62d6ee"><title>100 VUs, P50, golang, Profile Run 1: 2667 Requests/s</title></rect>
+<text class="" x="974.07" y="625.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2,667 req/s</text>
+<text class="theme-muted" x="338.00" y="645.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 2</text>
+<rect x="350.00" y="633.00" width="1268.21" height="15" rx="3" fill="#00add8"><title>100 VUs, P50, golang, Profile Run 2: 3142 Requests/s</title></rect>
+<text class="" x="984.11" y="645.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">3,142 req/s</text>
+<text class="theme-muted" x="338.00" y="665.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 3</text>
+<rect x="350.00" y="653.00" width="1268.02" height="15" rx="3" fill="#007d9c"><title>100 VUs, P50, golang, Profile Run 3: 3137 Requests/s</title></rect>
+<text class="" x="984.01" y="665.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">3,137 req/s</text>
+<text class="theme-muted" x="338.00" y="685.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 1</text>
+<rect x="350.00" y="673.00" width="1269.22" height="15" rx="3" fill="#fca5a5"><title>100 VUs, P50, Rust, Profile Run 1: 3168 Requests/s</title></rect>
+<text class="" x="984.61" y="685.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">3,168 req/s</text>
+<text class="theme-muted" x="338.00" y="705.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 2</text>
+<rect x="350.00" y="693.00" width="1265.45" height="15" rx="3" fill="#ef4444"><title>100 VUs, P50, Rust, Profile Run 2: 3072 Requests/s</title></rect>
+<text class="" x="982.73" y="705.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">3,072 req/s</text>
+<text class="theme-muted" x="338.00" y="725.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 3</text>
+<rect x="350.00" y="713.00" width="1261.40" height="15" rx="3" fill="#b91c1c"><title>100 VUs, P50, Rust, Profile Run 3: 2972 Requests/s</title></rect>
+<text class="" x="980.70" y="725.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2,972 req/s</text>
+<line class="theme-border" x1="40" y1="745" x2="1760" y2="745" stroke="#cbd5e1"/>
+<text class="theme-text" x="45.00" y="763.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" text-anchor="start">P90</text>
+<text class="theme-muted" x="338.00" y="782.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 1</text>
+<rect x="350.00" y="770.00" width="1326.03" height="15" rx="3" fill="#8b7cf6"><title>100 VUs, P90, .NET, Profile Run 1: 5037.8 Requests/s</title></rect>
+<text class="" x="1013.02" y="782.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">5,038 req/s</text>
+<text class="theme-muted" x="338.00" y="802.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 2</text>
+<rect x="350.00" y="790.00" width="1323.77" height="15" rx="3" fill="#6d4aff"><title>100 VUs, P90, .NET, Profile Run 2: 4945.8 Requests/s</title></rect>
+<text class="" x="1011.89" y="802.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,946 req/s</text>
+<text class="theme-muted" x="338.00" y="822.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 3</text>
+<rect x="350.00" y="810.00" width="1326.51" height="15" rx="3" fill="#4c2cb3"><title>100 VUs, P90, .NET, Profile Run 3: 5057.4 Requests/s</title></rect>
+<text class="" x="1013.25" y="822.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">5,057 req/s</text>
+<text class="theme-muted" x="338.00" y="842.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 1</text>
+<rect x="350.00" y="830.00" width="1293.46" height="15" rx="3" fill="#ffb36b"><title>100 VUs, P90, Java, Profile Run 1: 3861.4 Requests/s</title></rect>
+<text class="" x="996.73" y="842.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">3,861 req/s</text>
+<text class="theme-muted" x="338.00" y="862.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 2</text>
+<rect x="350.00" y="850.00" width="1288.00" height="15" rx="3" fill="#e76f00"><title>100 VUs, P90, Java, Profile Run 2: 3693 Requests/s</title></rect>
+<text class="" x="994.00" y="862.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">3,693 req/s</text>
+<text class="theme-muted" x="338.00" y="882.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 3</text>
+<rect x="350.00" y="870.00" width="1295.94" height="15" rx="3" fill="#a94800"><title>100 VUs, P90, Java, Profile Run 3: 3940.2 Requests/s</title></rect>
+<text class="" x="997.97" y="882.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">3,940 req/s</text>
+<text class="theme-muted" x="338.00" y="902.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 1</text>
+<rect x="350.00" y="890.00" width="1302.14" height="15" rx="3" fill="#62d6ee"><title>100 VUs, P90, golang, Profile Run 1: 4144.8 Requests/s</title></rect>
+<text class="" x="1001.07" y="902.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,145 req/s</text>
+<text class="theme-muted" x="338.00" y="922.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 2</text>
+<rect x="350.00" y="910.00" width="1305.90" height="15" rx="3" fill="#00add8"><title>100 VUs, P90, golang, Profile Run 2: 4274.2 Requests/s</title></rect>
+<text class="" x="1002.95" y="922.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,274 req/s</text>
+<text class="theme-muted" x="338.00" y="942.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 3</text>
+<rect x="350.00" y="930.00" width="1292.59" height="15" rx="3" fill="#007d9c"><title>100 VUs, P90, golang, Profile Run 3: 3834 Requests/s</title></rect>
+<text class="" x="996.29" y="942.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">3,834 req/s</text>
+<text class="theme-muted" x="338.00" y="962.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 1</text>
+<rect x="350.00" y="950.00" width="1300.89" height="15" rx="3" fill="#fca5a5"><title>100 VUs, P90, Rust, Profile Run 1: 4102.7 Requests/s</title></rect>
+<text class="" x="1000.44" y="962.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,103 req/s</text>
+<text class="theme-muted" x="338.00" y="982.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 2</text>
+<rect x="350.00" y="970.00" width="1290.01" height="15" rx="3" fill="#ef4444"><title>100 VUs, P90, Rust, Profile Run 2: 3754 Requests/s</title></rect>
+<text class="" x="995.00" y="982.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">3,754 req/s</text>
+<text class="theme-muted" x="338.00" y="1002.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 3</text>
+<rect x="350.00" y="990.00" width="1286.67" height="15" rx="3" fill="#b91c1c"><title>100 VUs, P90, Rust, Profile Run 3: 3653 Requests/s</title></rect>
+<text class="" x="993.33" y="1002.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">3,653 req/s</text>
+<line class="theme-border" x1="40" y1="1022" x2="1760" y2="1022" stroke="#cbd5e1"/>
+<text class="theme-text" x="45.00" y="1040.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" text-anchor="start">P99</text>
+<text class="theme-muted" x="338.00" y="1059.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 1</text>
+<rect x="350.00" y="1047.00" width="1330.66" height="15" rx="3" fill="#8b7cf6"><title>100 VUs, P99, .NET, Profile Run 1: 5232 Requests/s</title></rect>
+<text class="" x="1015.33" y="1059.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">5,232 req/s</text>
+<text class="theme-muted" x="338.00" y="1079.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 2</text>
+<rect x="350.00" y="1067.00" width="1325.94" height="15" rx="3" fill="#6d4aff"><title>100 VUs, P99, .NET, Profile Run 2: 5034 Requests/s</title></rect>
+<text class="" x="1012.97" y="1079.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">5,034 req/s</text>
+<text class="theme-muted" x="338.00" y="1099.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 3</text>
+<rect x="350.00" y="1087.00" width="1329.16" height="15" rx="3" fill="#4c2cb3"><title>100 VUs, P99, .NET, Profile Run 3: 5168 Requests/s</title></rect>
+<text class="" x="1014.58" y="1099.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">5,168 req/s</text>
+<text class="theme-muted" x="338.00" y="1119.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 1</text>
+<rect x="350.00" y="1107.00" width="1321.51" height="15" rx="3" fill="#ffb36b"><title>100 VUs, P99, Java, Profile Run 1: 4855 Requests/s</title></rect>
+<text class="" x="1010.75" y="1119.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,855 req/s</text>
+<text class="theme-muted" x="338.00" y="1139.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 2</text>
+<rect x="350.00" y="1127.00" width="1317.24" height="15" rx="3" fill="#e76f00"><title>100 VUs, P99, Java, Profile Run 2: 4689 Requests/s</title></rect>
+<text class="" x="1008.62" y="1139.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,689 req/s</text>
+<text class="theme-muted" x="338.00" y="1159.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 3</text>
+<rect x="350.00" y="1147.00" width="1318.16" height="15" rx="3" fill="#a94800"><title>100 VUs, P99, Java, Profile Run 3: 4724 Requests/s</title></rect>
+<text class="" x="1009.08" y="1159.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,724 req/s</text>
+<text class="theme-muted" x="338.00" y="1179.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 1</text>
+<rect x="350.00" y="1167.00" width="1331.34" height="15" rx="3" fill="#62d6ee"><title>100 VUs, P99, golang, Profile Run 1: 5261 Requests/s</title></rect>
+<text class="" x="1015.67" y="1179.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">5,261 req/s</text>
+<text class="theme-muted" x="338.00" y="1199.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 2</text>
+<rect x="350.00" y="1187.00" width="1322.88" height="15" rx="3" fill="#00add8"><title>100 VUs, P99, golang, Profile Run 2: 4910 Requests/s</title></rect>
+<text class="" x="1011.44" y="1199.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,910 req/s</text>
+<text class="theme-muted" x="338.00" y="1219.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 3</text>
+<rect x="350.00" y="1207.00" width="1309.01" height="15" rx="3" fill="#007d9c"><title>100 VUs, P99, golang, Profile Run 3: 4384 Requests/s</title></rect>
+<text class="" x="1004.50" y="1219.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,384 req/s</text>
+<text class="theme-muted" x="338.00" y="1239.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 1</text>
+<rect x="350.00" y="1227.00" width="1308.11" height="15" rx="3" fill="#fca5a5"><title>100 VUs, P99, Rust, Profile Run 1: 4352 Requests/s</title></rect>
+<text class="" x="1004.06" y="1239.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,352 req/s</text>
+<text class="theme-muted" x="338.00" y="1259.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 2</text>
+<rect x="350.00" y="1247.00" width="1305.78" height="15" rx="3" fill="#ef4444"><title>100 VUs, P99, Rust, Profile Run 2: 4270 Requests/s</title></rect>
+<text class="" x="1002.89" y="1259.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,270 req/s</text>
+<text class="theme-muted" x="338.00" y="1279.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 3</text>
+<rect x="350.00" y="1267.00" width="1304.97" height="15" rx="3" fill="#b91c1c"><title>100 VUs, P99, Rust, Profile Run 3: 4242 Requests/s</title></rect>
+<text class="" x="1002.49" y="1279.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">4,242 req/s</text>
+<text class="theme-muted" x="1055.00" y="1324.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="middle">Requests/s (logarithmic)</text>
+</svg>

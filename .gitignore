@@ -1,0 +1,20 @@
+# Hugo build artifacts
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Agent skills and personas (local tooling)
+.agents/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment and secrets
+.env
+
+# OS / Editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

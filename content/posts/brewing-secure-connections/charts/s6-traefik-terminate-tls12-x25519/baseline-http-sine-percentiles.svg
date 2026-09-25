@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1342" viewBox="0 0 1800 1342" role="img" aria-labelledby="title desc">
+<metadata>{&quot;scenario&quot;: &quot;s6-traefik-terminate&quot;, &quot;tls_version&quot;: &quot;1.2&quot;, &quot;tls_group&quot;: &quot;X25519&quot;, &quot;run_ids&quot;: {&quot;dotnet&quot;: &quot;20260921T111528Z-blog_tls_baseline-s6-traefik-terminate-net&quot;, &quot;java&quot;: &quot;20260921T112806Z-blog_tls_baseline-s6-traefik-terminate-java&quot;, &quot;go&quot;: &quot;20260921T114027Z-blog_tls_baseline-s6-traefik-terminate-go&quot;, &quot;rust&quot;: &quot;20260921T115302Z-blog_tls_baseline-s6-traefik-terminate-rust&quot;}, &quot;source_start&quot;: &quot;2026-09-20T00:00:00Z&quot;, &quot;source_stop&quot;: &quot;2026-09-23T14:54:35Z&quot;}</metadata>
+<style>
+  .theme-bg { fill: #ffffff; }
+  .theme-plot { fill: #f8fafc; }
+  .theme-text { fill: #111827; }
+  .theme-muted { fill: #64748b; }
+  .theme-grid { stroke: #e2e8f0; }
+  .theme-border { stroke: #cbd5e1; }
+  @media (prefers-color-scheme: dark) {
+    .theme-bg { fill: #1f2227; }
+    .theme-plot { fill: #202328; }
+    .theme-text { fill: #d8d9da; }
+    .theme-muted { fill: #a8abb2; }
+    .theme-grid { stroke: #34383f; }
+    .theme-border { stroke: #454a52; }
+  }
+</style>
+<title id="title">Baseline · Sine - HTTP response-time percentiles</title>
+<desc id="desc">s6-traefik-terminate · TLS 1.2 · X25519 · per Profile Run · underlying samples · logarithmic value scale</desc>
+<rect class="theme-bg" width="1800" height="1342" rx="12" fill="#ffffff"/>
+<text class="theme-text" x="40.00" y="34.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="24" font-weight="700" text-anchor="start">Baseline · Sine - HTTP response-time percentiles</text>
+<text class="theme-muted" x="40.00" y="61.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="400" text-anchor="start">s6-traefik-terminate · TLS 1.2 · X25519 · per Profile Run · underlying samples · logarithmic value scale</text>
+<rect x="40" y="82" width="18" height="18" rx="3" fill="#6d4aff"/>
+<text class="theme-text" x="67.00" y="96.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">.NET</text>
+<rect x="220" y="82" width="18" height="18" rx="3" fill="#e76f00"/>
+<text class="theme-text" x="247.00" y="96.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">Java</text>
+<rect x="400" y="82" width="18" height="18" rx="3" fill="#00add8"/>
+<text class="theme-text" x="427.00" y="96.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">golang</text>
+<rect x="580" y="82" width="18" height="18" rx="3" fill="#ef4444"/>
+<text class="theme-text" x="607.00" y="96.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">Rust</text>
+<text class="theme-muted" x="800.00" y="96.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">Within each stack: Profile Run 1 light · Run 2 normal · Run 3 dark</text>
+<text class="theme-muted" x="350.00" y="135.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">0.01</text>
+<text class="theme-muted" x="820.00" y="135.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">0.1</text>
+<text class="theme-muted" x="1290.00" y="135.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">1</text>
+<text class="theme-muted" x="1760.00" y="135.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">10</text>
+<rect class="theme-plot theme-border" x="30" y="155" width="1740" height="1132" fill="#f8fafc" stroke="#cbd5e1"/>
+<line class="theme-grid" x1="350.00" y1="155" x2="350.00" y2="1287" stroke="#e2e8f0"/>
+<line class="theme-grid" x1="820.00" y1="155" x2="820.00" y2="1287" stroke="#e2e8f0"/>
+<line class="theme-grid" x1="1290.00" y1="155" x2="1290.00" y2="1287" stroke="#e2e8f0"/>
+<line class="theme-grid" x1="1760.00" y1="155" x2="1760.00" y2="1287" stroke="#e2e8f0"/>
+<text class="theme-text" x="45.00" y="178.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="15" font-weight="700" text-anchor="start">Sine</text>
+<line class="theme-border" x1="40" y1="191" x2="1760" y2="191" stroke="#cbd5e1"/>
+<text class="theme-text" x="45.00" y="209.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" text-anchor="start">P01</text>
+<text class="theme-muted" x="338.00" y="228.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 1</text>
+<rect x="350.00" y="216.00" width="807.05" height="15" rx="3" fill="#8b7cf6"><title>Sine, P01, .NET, Profile Run 1: 0.521355 Milliseconds</title></rect>
+<text class="" x="753.53" y="228.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.521355 ms</text>
+<text class="theme-muted" x="338.00" y="248.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 2</text>
+<rect x="350.00" y="236.00" width="807.65" height="15" rx="3" fill="#6d4aff"><title>Sine, P01, .NET, Profile Run 2: 0.522872 Milliseconds</title></rect>
+<text class="" x="753.82" y="248.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.522872 ms</text>
+<text class="theme-muted" x="338.00" y="268.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 3</text>
+<rect x="350.00" y="256.00" width="807.34" height="15" rx="3" fill="#4c2cb3"><title>Sine, P01, .NET, Profile Run 3: 0.522099 Milliseconds</title></rect>
+<text class="" x="753.67" y="268.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.522099 ms</text>
+<text class="theme-muted" x="338.00" y="288.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 1</text>
+<rect x="350.00" y="276.00" width="791.09" height="15" rx="3" fill="#ffb36b"><title>Sine, P01, Java, Profile Run 1: 0.482141 Milliseconds</title></rect>
+<text class="" x="745.55" y="288.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.482141 ms</text>
+<text class="theme-muted" x="338.00" y="308.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 2</text>
+<rect x="350.00" y="296.00" width="792.57" height="15" rx="3" fill="#e76f00"><title>Sine, P01, Java, Profile Run 2: 0.48564 Milliseconds</title></rect>
+<text class="" x="746.28" y="308.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.48564 ms</text>
+<text class="theme-muted" x="338.00" y="328.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 3</text>
+<rect x="350.00" y="316.00" width="791.87" height="15" rx="3" fill="#a94800"><title>Sine, P01, Java, Profile Run 3: 0.483989 Milliseconds</title></rect>
+<text class="" x="745.94" y="328.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.483989 ms</text>
+<text class="theme-muted" x="338.00" y="348.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 1</text>
+<rect x="350.00" y="336.00" width="803.59" height="15" rx="3" fill="#62d6ee"><title>Sine, P01, golang, Profile Run 1: 0.512576 Milliseconds</title></rect>
+<text class="" x="751.79" y="348.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.512576 ms</text>
+<text class="theme-muted" x="338.00" y="368.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 2</text>
+<rect x="350.00" y="356.00" width="804.91" height="15" rx="3" fill="#00add8"><title>Sine, P01, golang, Profile Run 2: 0.515902 Milliseconds</title></rect>
+<text class="" x="752.45" y="368.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.515902 ms</text>
+<text class="theme-muted" x="338.00" y="388.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 3</text>
+<rect x="350.00" y="376.00" width="803.93" height="15" rx="3" fill="#007d9c"><title>Sine, P01, golang, Profile Run 3: 0.513448 Milliseconds</title></rect>
+<text class="" x="751.97" y="388.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.513448 ms</text>
+<text class="theme-muted" x="338.00" y="408.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 1</text>
+<rect x="350.00" y="396.00" width="788.84" height="15" rx="3" fill="#fca5a5"><title>Sine, P01, Rust, Profile Run 1: 0.476852 Milliseconds</title></rect>
+<text class="" x="744.42" y="408.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.476852 ms</text>
+<text class="theme-muted" x="338.00" y="428.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 2</text>
+<rect x="350.00" y="416.00" width="789.40" height="15" rx="3" fill="#ef4444"><title>Sine, P01, Rust, Profile Run 2: 0.478156 Milliseconds</title></rect>
+<text class="" x="744.70" y="428.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.478156 ms</text>
+<text class="theme-muted" x="338.00" y="448.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 3</text>
+<rect x="350.00" y="436.00" width="788.22" height="15" rx="3" fill="#b91c1c"><title>Sine, P01, Rust, Profile Run 3: 0.475395 Milliseconds</title></rect>
+<text class="" x="744.11" y="448.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.475395 ms</text>
+<line class="theme-border" x1="40" y1="468" x2="1760" y2="468" stroke="#cbd5e1"/>
+<text class="theme-text" x="45.00" y="486.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" text-anchor="start">P50</text>
+<text class="theme-muted" x="338.00" y="505.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 1</text>
+<rect x="350.00" y="493.00" width="873.93" height="15" rx="3" fill="#8b7cf6"><title>Sine, P50, .NET, Profile Run 1: 0.723495 Milliseconds</title></rect>
+<text class="" x="786.97" y="505.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.723495 ms</text>
+<text class="theme-muted" x="338.00" y="525.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 2</text>
+<rect x="350.00" y="513.00" width="874.30" height="15" rx="3" fill="#6d4aff"><title>Sine, P50, .NET, Profile Run 2: 0.724797 Milliseconds</title></rect>
+<text class="" x="787.15" y="525.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.724797 ms</text>
+<text class="theme-muted" x="338.00" y="545.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 3</text>
+<rect x="350.00" y="533.00" width="873.29" height="15" rx="3" fill="#4c2cb3"><title>Sine, P50, .NET, Profile Run 3: 0.721198 Milliseconds</title></rect>
+<text class="" x="786.64" y="545.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.721198 ms</text>
+<text class="theme-muted" x="338.00" y="565.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 1</text>
+<rect x="350.00" y="553.00" width="859.37" height="15" rx="3" fill="#ffb36b"><title>Sine, P50, Java, Profile Run 1: 0.673668 Milliseconds</title></rect>
+<text class="" x="779.68" y="565.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.673668 ms</text>
+<text class="theme-muted" x="338.00" y="585.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 2</text>
+<rect x="350.00" y="573.00" width="859.69" height="15" rx="3" fill="#e76f00"><title>Sine, P50, Java, Profile Run 2: 0.674724 Milliseconds</title></rect>
+<text class="" x="779.84" y="585.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.674724 ms</text>
+<text class="theme-muted" x="338.00" y="605.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 3</text>
+<rect x="350.00" y="593.00" width="859.55" height="15" rx="3" fill="#a94800"><title>Sine, P50, Java, Profile Run 3: 0.674267 Milliseconds</title></rect>
+<text class="" x="779.78" y="605.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.674267 ms</text>
+<text class="theme-muted" x="338.00" y="625.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 1</text>
+<rect x="350.00" y="613.00" width="869.20" height="15" rx="3" fill="#62d6ee"><title>Sine, P50, golang, Profile Run 1: 0.70692 Milliseconds</title></rect>
+<text class="" x="784.60" y="625.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.70692 ms</text>
+<text class="theme-muted" x="338.00" y="645.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 2</text>
+<rect x="350.00" y="633.00" width="869.72" height="15" rx="3" fill="#00add8"><title>Sine, P50, golang, Profile Run 2: 0.708699 Milliseconds</title></rect>
+<text class="" x="784.86" y="645.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.708699 ms</text>
+<text class="theme-muted" x="338.00" y="665.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 3</text>
+<rect x="350.00" y="653.00" width="868.92" height="15" rx="3" fill="#007d9c"><title>Sine, P50, golang, Profile Run 3: 0.705937 Milliseconds</title></rect>
+<text class="" x="784.46" y="665.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.705937 ms</text>
+<text class="theme-muted" x="338.00" y="685.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 1</text>
+<rect x="350.00" y="673.00" width="861.65" height="15" rx="3" fill="#fca5a5"><title>Sine, P50, Rust, Profile Run 1: 0.681246 Milliseconds</title></rect>
+<text class="" x="780.83" y="685.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.681246 ms</text>
+<text class="theme-muted" x="338.00" y="705.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 2</text>
+<rect x="350.00" y="693.00" width="861.85" height="15" rx="3" fill="#ef4444"><title>Sine, P50, Rust, Profile Run 2: 0.6819 Milliseconds</title></rect>
+<text class="" x="780.92" y="705.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.6819 ms</text>
+<text class="theme-muted" x="338.00" y="725.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 3</text>
+<rect x="350.00" y="713.00" width="861.41" height="15" rx="3" fill="#b91c1c"><title>Sine, P50, Rust, Profile Run 3: 0.680421 Milliseconds</title></rect>
+<text class="" x="780.70" y="725.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">0.680421 ms</text>
+<line class="theme-border" x1="40" y1="745" x2="1760" y2="745" stroke="#cbd5e1"/>
+<text class="theme-text" x="45.00" y="763.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" text-anchor="start">P90</text>
+<text class="theme-muted" x="338.00" y="782.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 1</text>
+<rect x="350.00" y="770.00" width="969.24" height="15" rx="3" fill="#8b7cf6"><title>Sine, P90, .NET, Profile Run 1: 1.15404 Milliseconds</title></rect>
+<text class="" x="834.62" y="782.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1.15 ms</text>
+<text class="theme-muted" x="338.00" y="802.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 2</text>
+<rect x="350.00" y="790.00" width="979.11" height="15" rx="3" fill="#6d4aff"><title>Sine, P90, .NET, Profile Run 2: 1.21117 Milliseconds</title></rect>
+<text class="" x="839.55" y="802.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1.21 ms</text>
+<text class="theme-muted" x="338.00" y="822.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 3</text>
+<rect x="350.00" y="810.00" width="963.57" height="15" rx="3" fill="#4c2cb3"><title>Sine, P90, .NET, Profile Run 3: 1.12238 Milliseconds</title></rect>
+<text class="" x="831.78" y="822.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1.12 ms</text>
+<text class="theme-muted" x="338.00" y="842.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 1</text>
+<rect x="350.00" y="830.00" width="960.62" height="15" rx="3" fill="#ffb36b"><title>Sine, P90, Java, Profile Run 1: 1.10628 Milliseconds</title></rect>
+<text class="" x="830.31" y="842.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1.11 ms</text>
+<text class="theme-muted" x="338.00" y="862.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 2</text>
+<rect x="350.00" y="850.00" width="956.36" height="15" rx="3" fill="#e76f00"><title>Sine, P90, Java, Profile Run 2: 1.08344 Milliseconds</title></rect>
+<text class="" x="828.18" y="862.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1.08 ms</text>
+<text class="theme-muted" x="338.00" y="882.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 3</text>
+<rect x="350.00" y="870.00" width="962.02" height="15" rx="3" fill="#a94800"><title>Sine, P90, Java, Profile Run 3: 1.11392 Milliseconds</title></rect>
+<text class="" x="831.01" y="882.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1.11 ms</text>
+<text class="theme-muted" x="338.00" y="902.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 1</text>
+<rect x="350.00" y="890.00" width="967.38" height="15" rx="3" fill="#62d6ee"><title>Sine, P90, golang, Profile Run 1: 1.14353 Milliseconds</title></rect>
+<text class="" x="833.69" y="902.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1.14 ms</text>
+<text class="theme-muted" x="338.00" y="922.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 2</text>
+<rect x="350.00" y="910.00" width="973.12" height="15" rx="3" fill="#00add8"><title>Sine, P90, golang, Profile Run 2: 1.17618 Milliseconds</title></rect>
+<text class="" x="836.56" y="922.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1.18 ms</text>
+<text class="theme-muted" x="338.00" y="942.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 3</text>
+<rect x="350.00" y="930.00" width="969.34" height="15" rx="3" fill="#007d9c"><title>Sine, P90, golang, Profile Run 3: 1.15461 Milliseconds</title></rect>
+<text class="" x="834.67" y="942.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1.15 ms</text>
+<text class="theme-muted" x="338.00" y="962.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 1</text>
+<rect x="350.00" y="950.00" width="1033.47" height="15" rx="3" fill="#fca5a5"><title>Sine, P90, Rust, Profile Run 1: 1.58078 Milliseconds</title></rect>
+<text class="" x="866.73" y="962.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1.58 ms</text>
+<text class="theme-muted" x="338.00" y="982.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 2</text>
+<rect x="350.00" y="970.00" width="1025.69" height="15" rx="3" fill="#ef4444"><title>Sine, P90, Rust, Profile Run 2: 1.52167 Milliseconds</title></rect>
+<text class="" x="862.85" y="982.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1.52 ms</text>
+<text class="theme-muted" x="338.00" y="1002.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 3</text>
+<rect x="350.00" y="990.00" width="1031.32" height="15" rx="3" fill="#b91c1c"><title>Sine, P90, Rust, Profile Run 3: 1.56423 Milliseconds</title></rect>
+<text class="" x="865.66" y="1002.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">1.56 ms</text>
+<line class="theme-border" x1="40" y1="1022" x2="1760" y2="1022" stroke="#cbd5e1"/>
+<text class="theme-text" x="45.00" y="1040.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" text-anchor="start">P99</text>
+<text class="theme-muted" x="338.00" y="1059.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 1</text>
+<rect x="350.00" y="1047.00" width="1146.09" height="15" rx="3" fill="#8b7cf6"><title>Sine, P99, .NET, Profile Run 1: 2.74464 Milliseconds</title></rect>
+<text class="" x="923.04" y="1059.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2.74 ms</text>
+<text class="theme-muted" x="338.00" y="1079.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 2</text>
+<rect x="350.00" y="1067.00" width="1151.54" height="15" rx="3" fill="#6d4aff"><title>Sine, P99, .NET, Profile Run 2: 2.81896 Milliseconds</title></rect>
+<text class="" x="925.77" y="1079.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2.82 ms</text>
+<text class="theme-muted" x="338.00" y="1099.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">.NET · Profile Run 3</text>
+<rect x="350.00" y="1087.00" width="1136.83" height="15" rx="3" fill="#4c2cb3"><title>Sine, P99, .NET, Profile Run 3: 2.62291 Milliseconds</title></rect>
+<text class="" x="918.41" y="1099.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2.62 ms</text>
+<text class="theme-muted" x="338.00" y="1119.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 1</text>
+<rect x="350.00" y="1107.00" width="1137.15" height="15" rx="3" fill="#ffb36b"><title>Sine, P99, Java, Profile Run 1: 2.62708 Milliseconds</title></rect>
+<text class="" x="918.58" y="1119.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2.63 ms</text>
+<text class="theme-muted" x="338.00" y="1139.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 2</text>
+<rect x="350.00" y="1127.00" width="1137.88" height="15" rx="3" fill="#e76f00"><title>Sine, P99, Java, Profile Run 2: 2.63643 Milliseconds</title></rect>
+<text class="" x="918.94" y="1139.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2.64 ms</text>
+<text class="theme-muted" x="338.00" y="1159.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Java · Profile Run 3</text>
+<rect x="350.00" y="1147.00" width="1137.22" height="15" rx="3" fill="#a94800"><title>Sine, P99, Java, Profile Run 3: 2.62795 Milliseconds</title></rect>
+<text class="" x="918.61" y="1159.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2.63 ms</text>
+<text class="theme-muted" x="338.00" y="1179.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 1</text>
+<rect x="350.00" y="1167.00" width="1137.23" height="15" rx="3" fill="#62d6ee"><title>Sine, P99, golang, Profile Run 1: 2.62811 Milliseconds</title></rect>
+<text class="" x="918.62" y="1179.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2.63 ms</text>
+<text class="theme-muted" x="338.00" y="1199.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 2</text>
+<rect x="350.00" y="1187.00" width="1150.37" height="15" rx="3" fill="#00add8"><title>Sine, P99, golang, Profile Run 2: 2.80278 Milliseconds</title></rect>
+<text class="" x="925.18" y="1199.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2.8 ms</text>
+<text class="theme-muted" x="338.00" y="1219.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">golang · Profile Run 3</text>
+<rect x="350.00" y="1207.00" width="1143.73" height="15" rx="3" fill="#007d9c"><title>Sine, P99, golang, Profile Run 3: 2.71307 Milliseconds</title></rect>
+<text class="" x="921.86" y="1219.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">2.71 ms</text>
+<text class="theme-muted" x="338.00" y="1239.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 1</text>
+<rect x="350.00" y="1227.00" width="1284.01" height="15" rx="3" fill="#fca5a5"><title>Sine, P99, Rust, Profile Run 1: 5.39441 Milliseconds</title></rect>
+<text class="" x="992.01" y="1239.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">5.39 ms</text>
+<text class="theme-muted" x="338.00" y="1259.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 2</text>
+<rect x="350.00" y="1247.00" width="1279.39" height="15" rx="3" fill="#ef4444"><title>Sine, P99, Rust, Profile Run 2: 5.27362 Milliseconds</title></rect>
+<text class="" x="989.70" y="1259.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">5.27 ms</text>
+<text class="theme-muted" x="338.00" y="1279.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="end">Rust · Profile Run 3</text>
+<rect x="350.00" y="1267.00" width="1283.35" height="15" rx="3" fill="#b91c1c"><title>Sine, P99, Rust, Profile Run 3: 5.37701 Milliseconds</title></rect>
+<text class="" x="991.68" y="1279.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="9" font-weight="700" text-anchor="middle">5.38 ms</text>
+<text class="theme-muted" x="1055.00" y="1324.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="middle">Milliseconds (logarithmic)</text>
+</svg>

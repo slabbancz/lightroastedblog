@@ -1,0 +1,72 @@
+colorScheme = "congo"
+defaultAppearance = "light"
+autoSwitchAppearance = false
+defaultSocialImage = "img/dockyard.svg"
+
+enableA11y = true
+enableSearch = true
+enableCodeCopy = true
+enableStructuredBreadcrumbs = true
+mainSections = ["posts"]
+highlightCurrentMenuArea = true
+smartTOC = true
+fingerprintAlgorithm = "sha512"
+
+[header]
+  layout = "floating"
+  mobileMenuStyle = "dropdown"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "hero"
+  layoutSwitcher = false
+  homepageImage = "img/dockyard.svg"
+  showRecent = true
+  showRecentItems = 5
+  showMoreLink = true
+  showMoreLinkDest = "posts"
+  cardView = false
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = false
+
+[article]
+  showDate = true
+  showViews = false
+  showLikes = false
+  showAuthor = true
+  showHero = true
+  heroStyle = "basic"
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  showHeadingAnchors = true
+  showPagination = true
+  seriesOpened = true
+  showReadingTime = true
+  showReadingProgress = true
+  showTableOfContents = true
+  showRelatedContent = false
+  showTaxonomies = true
+  showAuthorsBadges = false
+  showWordCount = true
+  sharingLinks = []
+  showZenMode = true
+
+[list]
+  showHero = false
+  showBreadcrumbs = true
+  showSummary = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  showCards = true
+  cardView = false
+
+[buymeacoffee]
+  globalWidget = false

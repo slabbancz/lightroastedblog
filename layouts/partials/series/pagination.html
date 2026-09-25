@@ -1,0 +1,23 @@
+{{ $page := .page }}
+{{ if $page.Params.showPagination | default site.Params.article.showPagination }}
+  {{ range $index, $chapter := .chapters }}
+    {{ if eq $chapter.RelPermalink $page.RelPermalink }}
+      <nav class="chapter-pagination" aria-label="{{ i18n "article.chapter_navigation" }}">
+        <span>
+          {{ if gt $index 0 }}
+            {{ with index $.chapters (sub $index 1) }}
+              <a rel="prev" href="{{ .RelPermalink }}">{{ i18n "article.previous_chapter" }}: {{ .Title }}</a>
+            {{ end }}
+          {{ end }}
+        </span>
+        <span>
+          {{ if lt (add $index 1) (len $.chapters) }}
+            {{ with index $.chapters (add $index 1) }}
+              <a rel="next" href="{{ .RelPermalink }}">{{ i18n "article.next_chapter" }}: {{ .Title }}</a>
+            {{ end }}
+          {{ end }}
+        </span>
+      </nav>
+    {{ end }}
+  {{ end }}
+{{ end }}

@@ -1,0 +1,15 @@
+{{ $page := .page }}
+<details open class="chapter-sidebar">
+  <summary>{{ i18n "article.chapters" }}</summary>
+  <nav aria-label="{{ i18n "article.chapters" }}">
+    <ol>
+      {{ range .chapters }}
+        <li>
+          <a href="{{ .RelPermalink }}"{{ if eq .RelPermalink $page.RelPermalink }} aria-current="page"{{ end }}>
+            {{ .Title }}
+          </a>
+        </li>
+      {{ end }}
+    </ol>
+  </nav>
+</details>

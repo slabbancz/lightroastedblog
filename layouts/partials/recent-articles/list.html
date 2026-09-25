@@ -1,0 +1,14 @@
+{{/* List post entry points, not the individual chapters inside them. */}}
+{{ $posts := slice }}
+{{ range site.Params.mainSections }}
+  {{ with site.GetPage . }}
+    {{ range .Pages }}
+      {{ $posts = $posts | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+<section class="space-y-10 w-full">
+  {{ range first (site.Params.homepage.showRecentItems | default 5) (sort $posts "Date" "desc") }}
+    {{ partial "article-link/simple.html" . }}
+  {{ end }}
+</section>

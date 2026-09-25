@@ -1,0 +1,39 @@
+{{/* Blowfish hero without the profile avatar; article author bylines remain unchanged. */}}
+{{ $disableHeroImageFilter := .Site.Params.homepage.disableHeroImageFilter | default false }}
+{{ $homepageImage := resources.Get .Site.Params.homepage.homepageImage }}
+{{ $heroTitleLines := .Site.Params.Author.heroTitleLines | default (slice (.Site.Params.Author.name | default .Site.Title)) }}
+<article class="max-w-full prose dark:prose-invert">
+  <div class="relative">
+    <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
+    <div class="mx-auto max-w-7xl p-0">
+      <div class="relative shadow-xl sm:overflow-hidden rounded-2xl">
+        <div class="absolute inset-0">
+          {{ with $homepageImage }}
+            <img class="h-full w-full object-cover nozoom mt-0 mr-0 mb-0 ml-0" src="{{ .RelPermalink }}" alt="">
+            {{ if not $disableHeroImageFilter }}
+              <div class="absolute inset-0 dockyard-hero-shade"></div>
+            {{ end }}
+          {{ end }}
+        </div>
+        <div class="dockyard-hero-content relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 flex flex-col items-center justify-center text-center">
+          {{ if not $disableHeroImageFilter }}
+            <h1 class="mb-2 text-4xl font-extrabold text-neutral-200">
+              {{ range $heroTitleLines }}<span class="block">{{ . }}</span>{{ end }}
+            </h1>
+            {{ with .Site.Params.Author.headline }}
+              <h2 class="mt-0 mb-0 text-xl font-normal text-neutral-300">{{ with $.Site.Params.Author.headlineIcon }}<span>{{ . }}</span> {{ end }}<span class="italic">{{ . | markdownify }}</span></h2>
+            {{ end }}
+          {{ else }}
+            <h1 class="mb-2 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
+              {{ range $heroTitleLines }}<span class="block">{{ . }}</span>{{ end }}
+            </h1>
+            {{ with .Site.Params.Author.headline }}
+              <h2 class="mt-0 mb-0 text-xl font-normal text-neutral-800 dark:text-neutral-300">{{ with $.Site.Params.Author.headlineIcon }}<span>{{ . }}</span> {{ end }}<span class="italic">{{ . | markdownify }}</span></h2>
+            {{ end }}
+          {{ end }}
+          <section class="prose prose-invert w-full">{{ .Content }}</section>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

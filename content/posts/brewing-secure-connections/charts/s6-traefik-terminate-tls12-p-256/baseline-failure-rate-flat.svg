@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="531" viewBox="0 0 1800 531" role="img" aria-labelledby="title desc">
+<metadata>{&quot;scenario&quot;: &quot;s6-traefik-terminate&quot;, &quot;tls_version&quot;: &quot;1.2&quot;, &quot;tls_group&quot;: &quot;P-256&quot;, &quot;run_ids&quot;: {&quot;dotnet&quot;: &quot;20260921T102443Z-blog_tls_baseline-s6-traefik-terminate-net&quot;, &quot;java&quot;: &quot;20260921T103642Z-blog_tls_baseline-s6-traefik-terminate-java&quot;, &quot;go&quot;: &quot;20260921T105050Z-blog_tls_baseline-s6-traefik-terminate-go&quot;, &quot;rust&quot;: &quot;20260921T110319Z-blog_tls_baseline-s6-traefik-terminate-rust&quot;}, &quot;source_start&quot;: &quot;2026-09-20T00:00:00Z&quot;, &quot;source_stop&quot;: &quot;2026-09-23T14:54:35Z&quot;}</metadata>
+<style>
+  .theme-bg { fill: #ffffff; }
+  .theme-plot { fill: #f8fafc; }
+  .theme-text { fill: #111827; }
+  .theme-muted { fill: #64748b; }
+  .theme-grid { stroke: #e2e8f0; }
+  .theme-border { stroke: #cbd5e1; }
+  @media (prefers-color-scheme: dark) {
+    .theme-bg { fill: #1f2227; }
+    .theme-plot { fill: #202328; }
+    .theme-text { fill: #d8d9da; }
+    .theme-muted { fill: #a8abb2; }
+    .theme-grid { stroke: #34383f; }
+    .theme-border { stroke: #454a52; }
+  }
+</style>
+<title id="title">Baseline · Flat - HTTP failure rate</title>
+<desc id="desc">s6-traefik-terminate · TLS 1.2 · P-256 · per Profile Run · underlying samples · failed requests / completed HTTP requests</desc>
+<rect class="theme-bg" width="1800" height="531" rx="12" fill="#ffffff"/>
+<text class="theme-text" x="40.00" y="34.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="24" font-weight="700" text-anchor="start">Baseline · Flat - HTTP failure rate</text>
+<text class="theme-muted" x="40.00" y="61.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="400" text-anchor="start">s6-traefik-terminate · TLS 1.2 · P-256 · per Profile Run · underlying samples · failed requests / completed HTTP requests</text>
+<rect x="40" y="82" width="18" height="18" rx="3" fill="#6d4aff"/>
+<text class="theme-text" x="67.00" y="96.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">.NET</text>
+<rect x="220" y="82" width="18" height="18" rx="3" fill="#e76f00"/>
+<text class="theme-text" x="247.00" y="96.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">Java</text>
+<rect x="400" y="82" width="18" height="18" rx="3" fill="#00add8"/>
+<text class="theme-text" x="427.00" y="96.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">golang</text>
+<rect x="580" y="82" width="18" height="18" rx="3" fill="#ef4444"/>
+<text class="theme-text" x="607.00" y="96.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">Rust</text>
+<text class="theme-muted" x="800.00" y="96.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="start">Profile Run 1 light · Run 2 normal · Run 3 dark</text>
+<rect class="theme-plot theme-border" x="30" y="150" width="1740" height="326" fill="#f8fafc" stroke="#cbd5e1"/>
+<line class="theme-grid" x1="350.00" y1="150" x2="350.00" y2="476" stroke="#e2e8f0"/>
+<text class="theme-muted" x="350.00" y="134.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">0%</text>
+<line class="theme-grid" x1="702.50" y1="150" x2="702.50" y2="476" stroke="#e2e8f0"/>
+<text class="theme-muted" x="702.50" y="134.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">0.0005%</text>
+<line class="theme-grid" x1="1055.00" y1="150" x2="1055.00" y2="476" stroke="#e2e8f0"/>
+<text class="theme-muted" x="1055.00" y="134.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">0.001%</text>
+<line class="theme-grid" x1="1407.50" y1="150" x2="1407.50" y2="476" stroke="#e2e8f0"/>
+<text class="theme-muted" x="1407.50" y="134.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">0.0015%</text>
+<line class="theme-grid" x1="1760.00" y1="150" x2="1760.00" y2="476" stroke="#e2e8f0"/>
+<text class="theme-muted" x="1760.00" y="134.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="400" text-anchor="middle">0.002%</text>
+<text class="theme-text" x="45.00" y="174.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="15" font-weight="700" text-anchor="start">Flat</text>
+<text class="theme-muted" x="338.00" y="202.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">.NET · Profile Run 1</text>
+<line x1="350" y1="188" x2="350" y2="206" stroke="#8b7cf6" stroke-width="4"/>
+<text class="theme-text" x="359.00" y="202.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700" text-anchor="start">0% (0/59,996)</text>
+<text class="theme-muted" x="338.00" y="226.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">.NET · Profile Run 2</text>
+<rect x="350" y="212" width="1175.02" height="18" rx="3" fill="#6d4aff"/>
+<text class="" x="937.51" y="226.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700" text-anchor="middle">0.001667% (1/59,999)</text>
+<text class="theme-muted" x="338.00" y="250.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">.NET · Profile Run 3</text>
+<rect x="350" y="236" width="1175.04" height="18" rx="3" fill="#4c2cb3"/>
+<text class="" x="937.52" y="250.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700" text-anchor="middle">0.001667% (1/59,998)</text>
+<text class="theme-muted" x="338.00" y="274.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">Java · Profile Run 1</text>
+<rect x="350" y="260" width="1175.00" height="18" rx="3" fill="#ffb36b"/>
+<text class="" x="937.50" y="274.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700" text-anchor="middle">0.001667% (1/60,000)</text>
+<text class="theme-muted" x="338.00" y="298.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">Java · Profile Run 2</text>
+<line x1="350" y1="284" x2="350" y2="302" stroke="#e76f00" stroke-width="4"/>
+<text class="theme-text" x="359.00" y="298.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700" text-anchor="start">0% (0/59,994)</text>
+<text class="theme-muted" x="338.00" y="322.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">Java · Profile Run 3</text>
+<line x1="350" y1="308" x2="350" y2="326" stroke="#a94800" stroke-width="4"/>
+<text class="theme-text" x="359.00" y="322.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700" text-anchor="start">0% (0/59,999)</text>
+<text class="theme-muted" x="338.00" y="346.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">golang · Profile Run 1</text>
+<rect x="350" y="332" width="1174.98" height="18" rx="3" fill="#62d6ee"/>
+<text class="" x="937.49" y="346.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700" text-anchor="middle">0.001667% (1/60,001)</text>
+<text class="theme-muted" x="338.00" y="370.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">golang · Profile Run 2</text>
+<rect x="350" y="356" width="1175.00" height="18" rx="3" fill="#00add8"/>
+<text class="" x="937.50" y="370.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700" text-anchor="middle">0.001667% (1/60,000)</text>
+<text class="theme-muted" x="338.00" y="394.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">golang · Profile Run 3</text>
+<rect x="350" y="380" width="1175.04" height="18" rx="3" fill="#007d9c"/>
+<text class="" x="937.52" y="394.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700" text-anchor="middle">0.001667% (1/59,998)</text>
+<text class="theme-muted" x="338.00" y="418.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">Rust · Profile Run 1</text>
+<line x1="350" y1="404" x2="350" y2="422" stroke="#fca5a5" stroke-width="4"/>
+<text class="theme-text" x="359.00" y="418.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700" text-anchor="start">0% (0/60,001)</text>
+<text class="theme-muted" x="338.00" y="442.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">Rust · Profile Run 2</text>
+<rect x="350" y="428" width="1175.00" height="18" rx="3" fill="#ef4444"/>
+<text class="" x="937.50" y="442.00" fill="#ffffff" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700" text-anchor="middle">0.001667% (1/60,000)</text>
+<text class="theme-muted" x="338.00" y="466.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">Rust · Profile Run 3</text>
+<line x1="350" y1="452" x2="350" y2="470" stroke="#b91c1c" stroke-width="4"/>
+<text class="theme-text" x="359.00" y="466.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700" text-anchor="start">0% (0/59,999)</text>
+<text class="theme-muted" x="1055.00" y="513.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="middle">Failed HTTP requests (%)</text>
+</svg>

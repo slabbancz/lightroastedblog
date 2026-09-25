@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="620" viewBox="0 0 1800 620" role="img" aria-labelledby="title desc">
+<metadata>{&quot;scenario&quot;: &quot;s5-traefik-passthrough&quot;, &quot;tls_version&quot;: &quot;1.2&quot;, &quot;tls_group&quot;: &quot;X25519&quot;, &quot;run_ids&quot;: {&quot;dotnet&quot;: &quot;20260921T012811Z-blog_tls_race-s5-traefik-passthrough-net&quot;, &quot;java&quot;: &quot;20260921T014030Z-blog_tls_race-s5-traefik-passthrough-java&quot;, &quot;go&quot;: &quot;20260921T014950Z-blog_tls_race-s5-traefik-passthrough-go&quot;, &quot;rust&quot;: &quot;20260921T015913Z-blog_tls_race-s5-traefik-passthrough-rust&quot;}, &quot;source_start&quot;: &quot;2026-09-20T00:00:00Z&quot;, &quot;source_stop&quot;: &quot;2026-09-23T14:54:35Z&quot;}</metadata>
+<style>
+  .theme-bg { fill: #ffffff; }
+  .theme-plot { fill: #f8fafc; }
+  .theme-text { fill: #111827; }
+  .theme-muted { fill: #64748b; }
+  .theme-grid { stroke: #e2e8f0; }
+  .theme-border { stroke: #cbd5e1; }
+  @media (prefers-color-scheme: dark) {
+    .theme-bg { fill: #1f2227; }
+    .theme-plot { fill: #202328; }
+    .theme-text { fill: #d8d9da; }
+    .theme-muted { fill: #a8abb2; }
+    .theme-grid { stroke: #34383f; }
+    .theme-border { stroke: #454a52; }
+  }
+</style>
+<title id="title">Fixed-work race 1,000 VUs - TCP connection time - Mean (per 1-second window)</title>
+<desc id="desc">s5-traefik-passthrough · TLS 1.2 · X25519 · 1-second windows · each Profile Run aligned to its own start · logarithmic Y scale</desc>
+<rect class="theme-bg" width="1800" height="620" rx="12" fill="#ffffff"/>
+<text class="theme-text" x="105.00" y="34.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="24" font-weight="700" text-anchor="start">Fixed-work race 1,000 VUs - TCP connection time - Mean (per 1-second window)</text>
+<text class="theme-muted" x="105.00" y="61.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="400" text-anchor="start">s5-traefik-passthrough · TLS 1.2 · X25519 · 1-second windows · each Profile Run aligned to its own start · logarithmic Y scale</text>
+<rect class="theme-plot theme-border" x="105" y="92" width="1660" height="416" fill="#f8fafc" stroke="#cbd5e1"/>
+<line class="theme-grid" x1="105" y1="508.00" x2="1765" y2="508.00" stroke="#e2e8f0"/>
+<text class="theme-muted" x="93.00" y="512.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">1</text>
+<line class="theme-grid" x1="105" y1="404.00" x2="1765" y2="404.00" stroke="#e2e8f0"/>
+<text class="theme-muted" x="93.00" y="408.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">10</text>
+<line class="theme-grid" x1="105" y1="300.00" x2="1765" y2="300.00" stroke="#e2e8f0"/>
+<text class="theme-muted" x="93.00" y="304.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">100</text>
+<line class="theme-grid" x1="105" y1="196.00" x2="1765" y2="196.00" stroke="#e2e8f0"/>
+<text class="theme-muted" x="93.00" y="200.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">1k</text>
+<line class="theme-grid" x1="105" y1="92.00" x2="1765" y2="92.00" stroke="#e2e8f0"/>
+<text class="theme-muted" x="93.00" y="96.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="end">10k</text>
+<line class="theme-grid" x1="105.00" y1="92" x2="105.00" y2="508" stroke="#e2e8f0"/>
+<text class="theme-muted" x="105.00" y="532.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="middle">0s</text>
+<line class="theme-grid" x1="381.67" y1="92" x2="381.67" y2="508" stroke="#e2e8f0"/>
+<text class="theme-muted" x="381.67" y="532.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="middle">10s</text>
+<line class="theme-grid" x1="658.33" y1="92" x2="658.33" y2="508" stroke="#e2e8f0"/>
+<text class="theme-muted" x="658.33" y="532.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="middle">20s</text>
+<line class="theme-grid" x1="935.00" y1="92" x2="935.00" y2="508" stroke="#e2e8f0"/>
+<text class="theme-muted" x="935.00" y="532.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="middle">30s</text>
+<line class="theme-grid" x1="1211.67" y1="92" x2="1211.67" y2="508" stroke="#e2e8f0"/>
+<text class="theme-muted" x="1211.67" y="532.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="middle">40s</text>
+<line class="theme-grid" x1="1488.33" y1="92" x2="1488.33" y2="508" stroke="#e2e8f0"/>
+<text class="theme-muted" x="1488.33" y="532.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="middle">50s</text>
+<line class="theme-grid" x1="1765.00" y1="92" x2="1765.00" y2="508" stroke="#e2e8f0"/>
+<text class="theme-muted" x="1765.00" y="532.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="400" text-anchor="middle">60s</text>
+<path d="M 105.00 384.39 L 132.67 351.86 L 160.33 268.67 L 188.00 304.10 L 215.67 442.89 L 243.33 440.52 L 271.00 448.92 L 298.67 464.25 L 326.33 456.23 L 354.00 469.90 L 381.67 459.32 L 409.33 449.62 L 437.00 461.37 L 464.67 457.12 L 492.33 469.58 L 520.00 463.32 L 547.67 426.02 L 575.33 449.88 L 603.00 449.10 L 630.67 455.98 L 658.33 449.70 L 686.00 335.13 L 713.67 347.25 L 741.33 467.03 L 769.00 419.88 L 796.67 376.34 L 824.33 339.60 L 852.00 337.21 L 879.67 387.17 L 907.33 355.97 L 935.00 334.18 L 962.67 304.96 L 990.33 358.57 L 1018.00 377.84 L 1045.67 331.96 L 1073.33 342.32 L 1101.00 386.45 L 1128.67 374.16 L 1156.33 339.70 L 1184.00 320.29 L 1211.67 346.18 L 1239.33 394.11 L 1267.00 396.99 L 1294.67 329.20 L 1322.33 365.55 L 1350.00 424.53 L 1377.67 368.79 L 1405.33 327.84 L 1433.00 325.15 L 1460.67 185.07 L 1488.33 194.29 L 1516.00 482.81 L 1626.67 475.20" fill="none" stroke="#8b7cf6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 105.00 356.01 L 132.67 360.20 L 160.33 323.44 L 188.00 356.51 L 215.67 307.59 L 243.33 426.95 L 271.00 418.77 L 298.67 450.19 L 326.33 302.05 L 354.00 322.62 L 381.67 436.07 L 409.33 465.04 L 437.00 463.19 L 464.67 449.84 L 492.33 447.18 L 520.00 441.20 L 547.67 423.13 L 575.33 452.13 L 603.00 418.62 L 630.67 447.78 L 658.33 384.20 L 686.00 332.77 L 713.67 437.28 L 741.33 402.00 L 769.00 304.17 L 796.67 301.44 L 824.33 327.75 L 852.00 404.64 L 879.67 375.87 L 907.33 444.29 L 935.00 437.51 L 962.67 454.50 L 990.33 430.32 L 1018.00 443.40 L 1045.67 343.37 L 1073.33 372.99 L 1101.00 458.08 L 1128.67 453.59 L 1156.33 458.71 L 1184.00 411.56 L 1211.67 426.70 L 1239.33 451.22 L 1267.00 440.12 L 1294.67 452.46 L 1322.33 400.32 L 1350.00 427.72 L 1377.67 308.76 L 1405.33 337.85 L 1433.00 439.01 L 1460.67 444.30 L 1488.33 439.26 L 1516.00 455.65 L 1543.67 406.39" fill="none" stroke="#6d4aff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 105.00 389.68 L 132.67 324.33 L 160.33 370.01 L 188.00 457.38 L 215.67 378.70 L 243.33 444.14 L 271.00 423.71 L 298.67 447.88 L 326.33 359.03 L 354.00 270.47 L 381.67 361.90 L 409.33 399.29 L 437.00 329.61 L 464.67 353.36 L 492.33 301.09 L 520.00 444.29 L 547.67 366.39 L 575.33 439.85 L 603.00 377.16 L 630.67 409.35 L 658.33 393.97 L 686.00 378.99 L 713.67 396.79 L 741.33 409.68 L 769.00 332.67 L 796.67 450.66 L 824.33 407.21 L 852.00 406.54 L 879.67 435.80 L 907.33 426.29 L 935.00 452.31 L 962.67 442.71 L 990.33 360.16 L 1018.00 399.36 L 1045.67 398.40 L 1073.33 419.83 L 1101.00 434.14 L 1128.67 457.00 L 1156.33 457.07 L 1184.00 410.07 L 1211.67 440.36 L 1239.33 304.88 L 1267.00 364.45 L 1294.67 386.25 L 1322.33 379.13 L 1350.00 313.85 L 1377.67 302.17 L 1405.33 352.46 L 1433.00 371.64 L 1460.67 281.35" fill="none" stroke="#4c2cb3" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 105.00 400.69 L 132.67 291.04 L 160.33 245.05 L 188.00 331.60 L 215.67 270.79 L 243.33 264.63 L 271.00 259.98 L 298.67 308.11 L 326.33 324.38 L 354.00 296.14 L 381.67 344.64 L 409.33 252.19 L 437.00 299.98 L 464.67 260.33 L 492.33 236.64 L 520.00 296.16 L 547.67 309.49 L 575.33 437.00 L 603.00 252.99 L 630.67 237.99 L 658.33 298.25 L 686.00 372.76 L 713.67 226.70 L 741.33 278.06 L 769.00 278.98 L 796.67 315.60 L 824.33 194.44" fill="none" stroke="#ffb36b" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 105.00 432.81 L 132.67 420.15 L 160.33 288.46 L 188.00 252.68 L 215.67 302.03 L 243.33 246.89 L 271.00 270.23 L 298.67 258.63 L 326.33 280.15 L 354.00 281.61 L 381.67 297.93 L 409.33 234.62 L 437.00 311.70 L 464.67 346.24 L 492.33 270.28 L 520.00 249.52 L 547.67 332.58 L 575.33 313.83 L 603.00 301.50 L 630.67 230.48 L 658.33 314.77 L 686.00 326.97 L 713.67 260.47 L 741.33 282.74 L 852.00 344.61" fill="none" stroke="#e76f00" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 105.00 392.07 L 132.67 297.06 L 160.33 265.41 L 188.00 262.80 L 215.67 330.21 L 243.33 245.37 L 271.00 274.15 L 298.67 257.43 L 326.33 289.39 L 354.00 312.14 L 381.67 268.73 L 409.33 263.49 L 437.00 307.24 L 464.67 300.03 L 492.33 275.39 L 520.00 256.29 L 547.67 275.34 L 575.33 314.72 L 603.00 431.19 L 630.67 251.51 L 658.33 292.55 L 686.00 311.68 L 713.67 379.13 L 741.33 194.20 L 769.00 162.79 L 796.67 194.91 L 824.33 316.40" fill="none" stroke="#a94800" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 105.00 389.67 L 132.67 342.14 L 160.33 314.92 L 188.00 253.52 L 215.67 259.86 L 243.33 260.01 L 271.00 339.52 L 298.67 322.27 L 326.33 272.54 L 354.00 238.52 L 381.67 272.80 L 409.33 306.11 L 437.00 313.12 L 464.67 248.44 L 492.33 266.63 L 520.00 315.16 L 547.67 239.41 L 575.33 372.22 L 603.00 274.30 L 630.67 286.75 L 658.33 239.78 L 686.00 280.52 L 713.67 307.56" fill="none" stroke="#62d6ee" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 105.00 399.19 L 132.67 280.11 L 160.33 289.49 L 188.00 297.36 L 215.67 242.12 L 243.33 305.26 L 271.00 301.54 L 298.67 361.39 L 326.33 246.92 L 354.00 320.63 L 381.67 318.01 L 409.33 359.74 L 437.00 250.68 L 464.67 289.26 L 492.33 298.48 L 520.00 338.30 L 547.67 254.82 L 575.33 280.81 L 603.00 310.02 L 630.67 359.01 L 658.33 293.81 L 686.00 240.09 L 713.67 287.42 L 741.33 332.50 L 769.00 296.79 L 796.67 258.62 L 824.33 337.92" fill="none" stroke="#00add8" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 105.00 358.98 L 132.67 398.33 L 160.33 318.06 L 188.00 265.00 L 215.67 316.05 L 243.33 251.00 L 271.00 294.20 L 298.67 266.02 L 326.33 280.22 L 354.00 264.19 L 381.67 278.70 L 409.33 294.93 L 437.00 255.89 L 464.67 255.36 L 492.33 316.88 L 520.00 268.52 L 547.67 355.81 L 575.33 248.14 L 603.00 310.11 L 630.67 311.02 L 658.33 380.04 L 686.00 249.02 L 713.67 315.77 L 741.33 306.47 L 879.67 306.00 L 990.33 317.12" fill="none" stroke="#007d9c" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 105.00 337.04 L 132.67 316.03 L 160.33 295.05 L 188.00 261.28 L 215.67 265.41 L 243.33 296.85 L 271.00 227.42 L 298.67 308.22 L 326.33 312.61 L 354.00 373.96 L 381.67 241.93 L 409.33 307.27 L 437.00 305.87 L 464.67 368.87 L 492.33 246.46 L 520.00 307.78 L 547.67 309.57 L 575.33 363.87 L 603.00 303.53 L 630.67 235.71 L 658.33 339.21 L 686.00 308.29 L 713.67 240.01 L 741.33 300.53 L 769.00 304.80" fill="none" stroke="#fca5a5" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 105.00 417.60 L 132.67 309.68 L 160.33 243.02 L 188.00 277.70 L 215.67 250.09 L 243.33 355.20 L 271.00 269.62 L 298.67 236.39 L 326.33 308.63 L 354.00 330.60 L 381.67 271.40 L 409.33 266.80 L 437.00 302.96 L 464.67 323.65 L 492.33 287.71 L 520.00 262.17 L 547.67 306.00 L 575.33 315.92 L 603.00 341.84 L 630.67 280.62 L 658.33 256.23 L 686.00 319.13 L 713.67 414.56 L 741.33 247.99 L 769.00 317.73 L 935.00 332.53" fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 105.00 423.72 L 132.67 314.99 L 160.33 245.33 L 188.00 272.69 L 215.67 262.25 L 243.33 263.21 L 271.00 294.88 L 298.67 298.02 L 326.33 298.01 L 354.00 248.28 L 381.67 312.21 L 409.33 291.33 L 437.00 333.08 L 464.67 210.60 L 492.33 281.55 L 520.00 309.05 L 547.67 343.22 L 575.33 250.52 L 603.00 285.13 L 630.67 287.39 L 658.33 334.46 L 686.00 267.69 L 713.67 255.12 L 741.33 261.33 L 769.00 194.81" fill="none" stroke="#b91c1c" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="105" y1="573" x2="133" y2="573" stroke="#6d4aff" stroke-width="4"/>
+<text class="theme-text" x="143.00" y="578.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="400" text-anchor="start">.NET</text>
+<line x1="315" y1="573" x2="343" y2="573" stroke="#e76f00" stroke-width="4"/>
+<text class="theme-text" x="353.00" y="578.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="400" text-anchor="start">Java</text>
+<line x1="525" y1="573" x2="553" y2="573" stroke="#00add8" stroke-width="4"/>
+<text class="theme-text" x="563.00" y="578.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="400" text-anchor="start">golang</text>
+<line x1="735" y1="573" x2="763" y2="573" stroke="#ef4444" stroke-width="4"/>
+<text class="theme-text" x="773.00" y="578.00" fill="#111827" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="400" text-anchor="start">Rust</text>
+<text class="theme-muted" x="945.00" y="578.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="400" text-anchor="start">Profile Run 1 light · Run 2 normal · Run 3 dark</text>
+<text class="theme-muted" transform="translate(25 300.00) rotate(-90)" x="0.00" y="0.00" fill="#64748b" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="400" text-anchor="middle">Milliseconds (logarithmic)</text>
+</svg>

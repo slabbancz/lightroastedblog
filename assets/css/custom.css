@@ -1,0 +1,111 @@
+@media (min-width: 1280px) {
+  body {
+    max-width: 90rem;
+  }
+
+  #single_header {
+    max-width: 75ch;
+  }
+
+  .post-content-column {
+    flex: 1;
+    max-width: none;
+  }
+
+  .post-content-column .article-content {
+    max-width: none;
+  }
+}
+
+.dockyard-hero-content {
+  min-height: 420px;
+}
+
+.dockyard-hero-shade {
+  background: linear-gradient(
+    to bottom,
+    rgb(20 22 18 / 8%),
+    rgb(20 22 18 / 38%) 36%,
+    rgb(20 22 18 / 38%) 60%,
+    rgb(20 22 18 / 8%)
+  );
+}
+
+.chapter-sidebar {
+  max-height: calc(100vh - 160px);
+  overflow-y: auto;
+  min-width: 220px;
+  font-size: 1rem;
+}
+
+.chapter-sidebar summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.chapter-sidebar nav {
+  border-inline-start: 1px dotted currentColor;
+  padding-inline-start: 1rem;
+}
+
+.chapter-sidebar ol {
+  padding-inline-start: 0;
+  margin-block: 0.5rem;
+  list-style: none;
+}
+
+.chapter-sidebar li {
+  padding-inline-start: 0;
+  margin-block: 0.25rem;
+}
+
+.chapter-sidebar a {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.chapter-sidebar a[aria-current="page"] {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.chapter-sidebar a:hover {
+  text-decoration: underline;
+}
+
+.chapter-sidebar a:focus-visible,
+.chapter-pagination a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+.chapter-pagination {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  border-block-start: 1px dotted currentColor;
+  padding-block-start: 1rem;
+}
+
+.chapter-pagination span {
+  flex: 1;
+}
+
+.chapter-pagination span:last-child {
+  text-align: end;
+}
+
+@media (min-width: 1024px) {
+  .chapter-sidebar summary {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .chapter-sidebar {
+    max-height: none;
+    min-width: 0;
+    margin-block-end: 1.5rem;
+  }
+}

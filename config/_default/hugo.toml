@@ -1,0 +1,19 @@
+baseURL = "/"
+locale = "en"
+defaultContentLanguage = "en"
+title = "Light Roasted Platform Engineering"
+enableRobotsTXT = true
+summaryLength = 30
+ignoreFiles = ['content/posts/brewing-secure-connections/index2\.md$']
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+  author = "authors"
+
+[params]
+  description = "A lukewarm blog about platform engineering."

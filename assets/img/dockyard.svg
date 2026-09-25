@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" role="img" aria-labelledby="title description">
+  <title id="title">A Light Roasted dockyard</title>
+  <desc id="description">An original cartoon harbor: gantry cranes over stacks of shipping containers, bright curling fires, rolling smoke, and a quiet strip of water. No people or animals.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#b3b69a"/>
+      <stop offset="1" stop-color="#e4ca8d"/>
+    </linearGradient>
+    <pattern id="ribs" width="26" height="110" patternUnits="userSpaceOnUse">
+      <path d="M7 8v94M12 8v94" fill="none" stroke="#302d26" stroke-width="3" opacity=".35"/>
+    </pattern>
+    <g id="container" stroke="#302d26" stroke-linejoin="round">
+      <path d="M0 0h300v110H0z" fill="currentColor" stroke-width="5"/>
+      <path d="M300 0l42-20v109l-42 21z" fill="currentColor" stroke-width="5"/>
+      <path d="M0 0l42-20h300L300 0z" fill="#ead6a4" stroke-width="5"/>
+      <path d="M300 0l42-20v109l-42 21z" fill="#302d26" opacity=".25" stroke="none"/>
+      <path d="M8 8h282v94H8z" fill="url(#ribs)" stroke="none"/>
+      <path d="M9 12h282M9 98h282M250 6v97" fill="none" stroke-width="3" opacity=".7"/>
+      <path d="M265 22v69m19-69v69m-21-40h6m12 9h6" fill="none" stroke="#ead6a4" stroke-width="3"/>
+      <path d="M17 76h43v14H17z" fill="#ead6a4" stroke-width="2"/>
+    </g>
+    <g id="fire" stroke="#493021" stroke-linejoin="round">
+      <path d="M18 184C-15 135 18 109 15 74c16 12 19 26 23 43C39 71 81 43 71 0c38 31 29 75 46 94 11-19 22-25 27-47 18 43-1 63 16 88 9-15 17-19 20-34 28 40 13 68 2 83H18z" fill="#d58424" stroke-width="5"/>
+      <path d="M24 176c-5-26 16-44 19-67 13 11 15 23 17 34C66 116 89 92 87 63c25 24 11 64 30 85 11-13 18-24 18-40 22 21 12 39 24 51l15-19c8 14 7 27 0 39z" fill="#f2c84b" stroke-width="3"/>
+      <path d="M61 179c-2-24 22-32 22-54 19 17 12 30 24 43l14-17 15 28z" fill="#fff0a0" stroke="none"/>
+    </g>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v650H0z"/>
+  <circle cx="1330" cy="165" r="72" fill="#e4b969" opacity=".65"/>
+  <!-- The cranes and distant shore establish the harbor before the foreground fire. -->
+  <g fill="none" stroke="#635b43" stroke-width="9" stroke-linejoin="round">
+    <path d="M138 454V75h280v26H118M168 454V101m-15-26L75 14h395l-52 61M168 102l184 330M418 100v189m-15 0h30v21h-30z"/>
+    <path d="M1243 443V103h265v25h-294m54 315V128m-25-25-76-64h370l-29 64M1268 128l190 294M1470 128v134m-14 0h28v24h-28z"/>
+    <path d="M110 440h80m1030 0h72"/>
+  </g>
+  <g fill="none" stroke="#8c8061" stroke-width="3">
+    <path d="M101 35h334M114 48h309M173 113v271M1252 62h234M1265 78h202M1249 147v231"/>
+  </g>
+  <g fill="#817e65" stroke="#605c4b" stroke-width="3">
+    <path d="M363 396v-59h73v-35h49v94m35 0v-77h106v77m435 0v-86h82v86"/>
+    <path d="M876 404l-44-38h257l-24 38zM905 366v-27h72v27m-39-27v-34"/>
+  </g>
+  <!-- Broad smoke banks leave a quiet, dark field behind the blog heading. -->
+  <g stroke="#39372f" stroke-width="5" stroke-linejoin="round">
+    <path d="M-40 46C1-9 83-12 119 24 147-28 236-19 256 18 294-20 350-10 375 19 428-35 497-10 519 19 568-20 641-20 674 19 730-29 809-15 834 16 881-21 970-9 994 22 1044-32 1115-8 1140 22 1182-22 1249-13 1274 24 1330-16 1409-12 1430 27 1497-18 1570-10 1630 20V211H-40z" fill="#777361"/>
+    <path d="M-30 163c54-76 126-57 155-16 24-48 97-59 132-22 32-54 109-55 143-9 47-62 126-46 151-3 38-59 116-55 151-3 28-43 120-65 160-11 44-52 120-34 145 5 55-51 121-38 149 11 56-56 137-39 157 9 53-49 113-29 135 16 63-42 130-4 151 29v150H-30z" fill="#5e5d50"/>
+    <path d="M-25 272c35-47 94-47 125-14 48-48 95-34 133 1 25-41 96-52 137-10 35-48 102-44 141-6 42-36 105-39 135-4 41-37 119-36 148 0 48-40 109-31 144 4 34-42 110-37 143 6 43-40 113-30 139 4 55-40 116-30 141 9 69-44 126-25 160 21 43-34 96-16 123 12v151H-25z" fill="#4b4d43"/>
+    <path d="M-20 403c73 6 80-37 132-13 58 29 75-21 130-6 57 25 79-15 127-4 61 24 84-24 138-10 63 27 101-20 151-2 66 16 112-21 151-2 77 21 102-13 160-2 69 23 102-11 151 4 68 22 102-13 153 9 61 30 101-6 151 14 66 30 98-5 141 10" fill="none" opacity=".55"/>
+  </g>
+  <g fill="none" stroke="#ac9b72" stroke-width="7" stroke-linejoin="round" opacity=".85">
+    <path d="M75 371V113h288v20H54m48 236V134m-27-21L28 67h385l-50 46M102 134l145 170M338 134v116m-12 0h24v21h-24z"/>
+    <path d="M1486 374V120h-258v20h282m-51 231V141m27-21 42-47h-342l42 47M1459 141l-131 169M1247 141v95m-12 0h24v21h-24z"/>
+  </g>
+  <path d="M0 530l332-79h1268v160H0z" fill="#aa926c" stroke="#302d26" stroke-width="6"/>
+  <path d="M0 588h1600v36H0z" fill="#655c49" stroke="#302d26" stroke-width="5"/>
+  <g fill="none" stroke="#776951" stroke-width="3">
+    <path d="M133 555h347m-142-39h331m240 52h440m-91-57h290M290 585l137-72m563 72 64-49"/>
+  </g>
+  <!-- Anchor every flame's baseline (y=184) to the dock surface (y=588). -->
+  <use href="#fire" transform="translate(80 588) scale(1.1 1.92) translate(0 -184)"/>
+  <use href="#fire" transform="translate(1290 588) scale(1.15 1.82) translate(0 -184)"/>
+  <use href="#container" transform="translate(-60 447) rotate(-1)" color="#9c6045"/>
+  <use href="#container" transform="translate(7 337) rotate(2)" color="#91915e"/>
+  <use href="#container" transform="translate(267 465)" color="#638b84"/>
+  <use href="#container" transform="translate(1070 448) rotate(-1)" color="#b58748"/>
+  <use href="#container" transform="translate(1198 337) rotate(1)" color="#8b665c"/>
+  <use href="#container" transform="translate(1380 469)" color="#71875c"/>
+  <use href="#container" transform="translate(586 480) scale(.92 .8)" color="#9d7552"/>
+  <use href="#container" transform="translate(821 475) scale(.72 .85)" color="#747e6a"/>
+  <use href="#fire" transform="translate(-51 588) scale(1.1 1.3) translate(0 -184)"/>
+  <use href="#fire" transform="translate(168 588) scale(.9 1.04) translate(0 -184)"/>
+  <use href="#fire" transform="translate(422 588) scale(.62 .76) translate(0 -184)"/>
+  <use href="#fire" transform="translate(986 588) scale(.72 .82) translate(0 -184)"/>
+  <use href="#fire" transform="translate(736 588) scale(.42 .68) translate(0 -184)"/>
+  <use href="#fire" transform="translate(1215 588) scale(.94 1.23) translate(0 -184)"/>
+  <use href="#fire" transform="translate(1481 588) scale(1.15 1.43) translate(0 -184)"/>
+  <g fill="#e5a044" stroke="#493021" stroke-width="2">
+    <path d="m86 269 9-22 7 27-11 13zM281 343l12-22 1 27-9 9zM1269 315l10-24 9 29-11 8zM1468 257l7-18 10 24-10 6z"/>
+  </g>
+</svg>

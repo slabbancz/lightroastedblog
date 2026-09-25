@@ -1,0 +1,5 @@
+{{ $chapters := slice }}
+{{ range first 1 (.GetTerms "series") }}
+  {{ $chapters = .RegularPages.ByParam "series_order" }}
+{{ end }}
+{{ return $chapters }}
