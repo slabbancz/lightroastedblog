@@ -369,8 +369,6 @@ larger concurrent client pool:
 
 ### Does changing the TLS configuration change the story?
 
-With the TLS 1.2 / P-256 baseline in place, here is what happens across all four combinations of TLS 1.2, TLS 1.3, P-256, and X25519.
-
 #### Steady baseline (1,000 req/s)
 
 At steady load, the measurements showed consistently across all four topologies:
@@ -969,7 +967,7 @@ requests, but changing its TLS provider made a substantial difference.
 My main takeaway is that the TLS implementation and connection handling deserve
 more attention than the web framework name alone.
 
-Most benchmarks measure keep-alive connections, which basically tests how fast an HTTP framework can serialize bytes over an open socket. But when every request opens a fresh connection, the framework matters a lot less. In Java scenarios, swapping SunJSSE for BoringSSL dropped the 100,000-request race from **`52.19 s`** to **`24.24 s`** without touching any application code. When connection churn is high, the crypto library, the memory allocator, and how your runtime closes sockets end up driving the numbers.
+Most benchmarks measure keep-alive connections, which basically tests how fast an HTTP framework can serialize bytes over an open socket. But when every request opens a fresh connection, the framework matters a lot less. In Java scenarios, swapping SunJSSE for BoringSSL dropped the 100,000-request race from **`52.19 s`** to **`24.24 s`** without touching any application code. When connection churn is high, the crypto library implementation,  the base image libraries, and how your runtime handles socket teardown can decide how much throughput you will actually get.
 
 The topologies come down to where you want that connection work to happen. Direct VM and Pod paths give you the lowest latency under light load because there is no proxy in the middle, but your application container has to handle every incoming handshake and socket cleanup directly. Ingress termination adds a small hop delay of around 0.4 ms, but offloads client handshakes so your backend doesn't have to deal with thousands of new TLS connections. Passthrough makes sense when you need to route non-HTTP TLS streams like databases that an L7 proxy can't parse or when you want SNI routing without giving your private keys to the ingress, or when the backend needs to authenticate client certificates directly. You won't get better performance out of it though, since you still pay for the proxy hop while the application still runs the full handshake.
 

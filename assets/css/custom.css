@@ -1,3 +1,7 @@
+.article-content {
+  font-size: 14px;
+}
+
 @media (min-width: 1280px) {
   body {
     max-width: 90rem;
