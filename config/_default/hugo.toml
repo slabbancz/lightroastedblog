@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://slabbancz.github.io/lightroastedblog/"
 locale = "en"
 defaultContentLanguage = "en"
 title = "Light Roasted Platform Engineering"
